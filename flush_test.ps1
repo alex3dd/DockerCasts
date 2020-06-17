@@ -1,6 +1,16 @@
+$FLASH_FILE='flush.dat'
+
+<#
+8h 9h th jh qh
+jc 6c tc 3c kc
+5s 8s ts qh ac
+jd td qd ad kd
+td jd qd kd ad
+#>
+
+"td jd qd kd ad"|Set-Content $FLASH_FILE 
 
 $POKER_HAND_COUNT = 5
-$FLASH_FILE='flush.dat'
 $suit = @('c','d','h','s')
 $card_rank = @('T','J','Q','K', 'A')
 $card_rank_num = @(10,11,12,13,14)
